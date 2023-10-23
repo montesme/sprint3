@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+  
+
+}
+
+header {
+    margin-top: 5px;
+
+
+}
+
+body {
+    background-image: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+
+    padding-top: 0;
+}
+h1 {
+    background-color: crimson;
+    text-decoration: dashed;
+    text-align: center;
+    margin-top: 15px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 25px;
+}
+
+h2{
+  text-align: center;
+}
+
+h3{
+    background-color: crimson;
+    text-decoration: dashed;
+    text-align: center;
+    margin-top: 15px;
+    border-style: groove;
+    border-color: red;
+    border-radius: 25px;
+}
+
+.boton {
+    
+    display: inline-block;
+    margin-right: 45px; 
+}
+
+
+.logo{
+    width: 150px; 
+    height: 150px;
+    position: relative;
+    left: 550px;
+    bottom: 20px;
+}
+.barra {
+
+    position: relative;
+    top: 85px;
+    right: 335px;
+}
+.navegator {
+    
+    font-size: 16px;
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    text-align: center;
+    background-color:rgb(from color r g b);
+}
+
+.banner1
+{background-image: url(/imagenes/icecream.jpg);
+  background-size: cover;
+}
+.banner2{
+  background-image: url(./imagenes/icecream.jpg);
+    background-size: cover;
+  border-style: solid;
+  border-color: aqua;
+  width: 25vw;
+  height: 25vh;
+  position: relative;
+  left: 65px;
+  top: 345px;
+  
+}
+.contenedor1{
+  
+  display: flex;
+ margin-left: 20vw;
+  flex-wrap:nowrap;
+  height: 22vw;
+  margin-bottom: 4vw;
+  margin-top: 400px;
+}
+
+.contenedor2 {
+  display:inline-flex;
+  width: 19vw;
+  
+}
+
+.contimg{
+  transition: all 1s;
+  transform-origin: center center; 
+}
+
+.img-1{
+  height: 22vw;
+  background-image: url(./imagenes/strawberry.jpg);
+  background-position: 50% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform-origin: left center;
+}
+
+.img-2,.img-3,.img-4{
+  height: 22vw;
+  background-position: 50% center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-2{
+  background-image: url(./imagenes/redcream.jpg);
+}
+
+.img-3{
+  background-image: url(./imagenes/two-icecream.jpg);
+}
+
+
+
+.contimg:hover{
+  transform: scale(1.25);
+  
+}
+
+a {
+    color: black;
+}
+.section1{
+    font-style: italic;
+    display: flex;
+    border: 5px solid darkblue;
+    width: 320px;
+    margin: 4%;
+    padding: 4%;
+    position: absolute;
+     left: 750px;
+
+    
+}
+
+
+.banner2{
+
+  
+    border-style: solid;
+    border-color: aqua;
+    width: 550px;
+    height: 330px;
+    position: absolute;
+    left: 65px;
+    top: 320px;
+    
+}
+/* este codigo  del fotmato de contactp fue copiado para probar no fue con fines de lucro jajaja*/
+
+body{
+  height: 100%; 
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ab4493; 
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #ab4493;
+}
+
+
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.contact1{
+  margin-left: 530px;
+  }
+.tabla1{
+ margin-top: 150px;
+ margin-left: 150px;
+ 
+}
+.table tr, td, th{
+  align-items: center;
+  justify-content: center;
+  width: 15vw;
+  height: 15vh;
+  border: 1px solid;
+  border-color: black;
+  border-style: double;
+  background-color:grey;
+}
+
+
+.tabla1{
+  margin-bottom: 25px;
+  margin-left: 350px;
+  
+  
+}
+.imginf1{
+
+  height: 150px;
+  width: 150px;
+}
+
+.imginf2{
+
+  height: 150px;
+  width: 150px;
+}
+.contenedorb{
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+  border-color: #0e0e0e;
+  height: 35vh;
+  width: 80vw;
+}
+
+.contenedorb2{
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid;
+  border-color: #0e0e0e;
+  height: 35vh;
+  width: 80vw;
+}
+
+.arti{
+  margin-left: 250px;
+ 
+}
+
+.whatsapp{
+  font-size: 2.5vw;
+  font-weight: bold;
+  align-items: center;
+  padding: 0.6vw;
+  margin: 3vw;
+  border: 2px solid #6b750c;
+  border-radius: 20px;
+  background-color: #c6a279;
+  display: flex;
+}
+
+.whatsapp:hover{
+  color: white;
+  background-color: rgb(76, 110, 11);
+}
+.whatsappa{
+  text-decoration: none;
+  color: white;
+}
+
+.whatsappimg{
+   width: 8vw;
+   height: 12vh;
+}
+
+iframe{
+  width: 25vw; 
+  height:50vh;
+}
+.contendorform{
+  display: flex;
+  justify-content: space-between;
+}
+.mapa{
+  width: 25vw;
+  height: 50vh;
+margin-top: 5vh;
+margin-left: 10vw;
+}
+.titulomapa{
+  font-size: 2.7vw;
+  margin-bottom: 2vh;
+  text-align: center;
+  color: white;
+}
+.contenedorform2{
+  height: 130vh;
+  width: 55vw;
+  border-style: solid;
+  border-color: black ;
+  border-radius: 10px;
+  margin-top: 2vh;
+  margin-right: 6vw;
+  display: flex;
+  justify-content: center;
+}
+label{
+  font-weight: bold;
+  color: white;
+  font-size:small;
+}
+input, select{
+  margin-bottom: 10px;
+  width: 36vw;
+  height: 6vh;
+  font-size:small;
+}
+option{
+  text-align: center;
+}
+.payment{
+  margin-bottom: 1vh;
+}
+#cash,#credit-card,#debit-card{
+  width: 2vw;
+  height: 2vw;
+  margin-bottom: 0;
+  margin-left: 2vw;
+}
+
+.cash,.credit-card,.debit-card{
+  font-size:small;
+}
+
+#debit-card{
+  margin-bottom: 1vh;
+}
+#cash{
+  margin-top: 1vh;
+}
+
+#text{
+  width: 36vw;
+  height: 12vh;
+  font-size: small;
+  padding: 1vw;
+  margin-bottom: 1vh;
+}
+#terms-conditions{
+  width: 2vw;
+  height: 2vh;
+  margin-top: 1vh;
+  margin-left: -5vw;
+}
+
+.send{
+  height: 5vh;
+  width: 8vw;
+  margin-left: 1vw;
+  border: 2px solid #0a0003;
+  border-radius: 2vw;
+  background-color: #110157;
+  color: rgb(86, 186, 204);
+  font-weight: bold
+}
+
+.send:hover{
+  color: #0f104d;
+  background-color: rgb(148, 13, 13);
+}
